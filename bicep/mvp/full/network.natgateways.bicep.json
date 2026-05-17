@@ -1,0 +1,17 @@
+{
+  "etag": "W/\"ce37d523-9372-45ab-8518-809daa096416\"",
+  "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/poc-20230716/providers/Microsoft.Network/natGateways/poc-ngw-terry-mvp-01",
+  "idleTimeoutInMinutes": 4,
+  "location": "eastasia",
+  "name": "poc-ngw-terry-mvp-01",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "poc-20230716",
+  "resourceGuid": "279a9925-28a1-42d3-90e3-87e2ec0d899e",
+  "sku": {
+    "name": "Standard"
+  },
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.Network/natGateways"
+}

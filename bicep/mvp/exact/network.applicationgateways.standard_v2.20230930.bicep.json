@@ -1,0 +1,151 @@
+{
+  "backendAddressPools": [
+    {
+      "backendAddresses": [
+        {
+          "ipAddress": "10.99.182.100"
+        }
+      ],
+      "etag": "W/\"68f95223-9501-43be-9207-16da88b69533\"",
+      "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/backendAddressPools/backendAddressPool01",
+      "name": "backendAddressPool01",
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-rg-terry",
+      "type": "Microsoft.Network/applicationGateways/backendAddressPools"
+    }
+  ],
+  "backendHttpSettingsCollection": [
+    {
+      "cookieBasedAffinity": "Disabled",
+      "etag": "W/\"68f95223-9501-43be-9207-16da88b69533\"",
+      "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/backendHttpSettingsCollection/backendHttpSettings01",
+      "name": "backendHttpSettings01",
+      "pickHostNameFromBackendAddress": false,
+      "port": 80,
+      "protocol": "Http",
+      "provisioningState": "Succeeded",
+      "requestTimeout": 30,
+      "resourceGroup": "poc-rg-terry",
+      "type": "Microsoft.Network/applicationGateways/backendHttpSettingsCollection"
+    }
+  ],
+  "backendSettingsCollection": [],
+  "defaultPredefinedSslPolicy": "AppGwSslPolicy20220101",
+  "etag": "W/\"68f95223-9501-43be-9207-16da88b69533\"",
+  "frontendIPConfigurations": [
+    {
+      "etag": "W/\"68f95223-9501-43be-9207-16da88b69533\"",
+      "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/frontendIPConfigurations/private",
+      "name": "private",
+      "privateIPAddress": "10.99.182.126",
+      "privateIPAllocationMethod": "Static",
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-rg-terry",
+      "subnet": {
+        "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/virtualNetworks/ap-dev-star-vnet/subnets/ap-dev-star-agw-sbn",
+        "resourceGroup": "poc-rg-terry"
+      },
+      "type": "Microsoft.Network/applicationGateways/frontendIPConfigurations"
+    }
+  ],
+  "frontendPorts": [
+    {
+      "etag": "W/\"68f95223-9501-43be-9207-16da88b69533\"",
+      "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/frontendPorts/port_80",
+      "name": "port_80",
+      "port": 80,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-rg-terry",
+      "type": "Microsoft.Network/applicationGateways/frontendPorts"
+    }
+  ],
+  "gatewayIPConfigurations": [
+    {
+      "etag": "W/\"68f95223-9501-43be-9207-16da88b69533\"",
+      "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/gatewayIPConfigurations/gatewayIpConfig",
+      "name": "gatewayIpConfig",
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-rg-terry",
+      "subnet": {
+        "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/virtualNetworks/ap-dev-star-vnet/subnets/ap-dev-star-agw-sbn",
+        "resourceGroup": "poc-rg-terry"
+      },
+      "type": "Microsoft.Network/applicationGateways/gatewayIPConfigurations"
+    }
+  ],
+  "httpListeners": [
+    {
+      "etag": "W/\"68f95223-9501-43be-9207-16da88b69533\"",
+      "frontendIPConfiguration": {
+        "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/frontendIPConfigurations/private",
+        "resourceGroup": "poc-rg-terry"
+      },
+      "frontendPort": {
+        "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/frontendPorts/port_80",
+        "resourceGroup": "poc-rg-terry"
+      },
+      "hostName": "www.example.com",
+      "hostNames": [],
+      "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/httpListeners/www.example.com",
+      "name": "www.example.com",
+      "protocol": "Http",
+      "provisioningState": "Succeeded",
+      "requireServerNameIndication": false,
+      "resourceGroup": "poc-rg-terry",
+      "type": "Microsoft.Network/applicationGateways/httpListeners"
+    }
+  ],
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01",
+  "listeners": [],
+  "loadDistributionPolicies": [],
+  "location": "eastasia",
+  "name": "poc-agw-terry-01",
+  "operationalState": "Running",
+  "privateEndpointConnections": [],
+  "privateLinkConfigurations": [],
+  "probes": [],
+  "provisioningState": "Succeeded",
+  "redirectConfigurations": [],
+  "requestRoutingRules": [
+    {
+      "backendAddressPool": {
+        "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/backendAddressPools/backendAddressPool01",
+        "resourceGroup": "poc-rg-terry"
+      },
+      "backendHttpSettings": {
+        "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/backendHttpSettingsCollection/backendHttpSettings01",
+        "resourceGroup": "poc-rg-terry"
+      },
+      "etag": "W/\"68f95223-9501-43be-9207-16da88b69533\"",
+      "httpListener": {
+        "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/httpListeners/www.example.com",
+        "resourceGroup": "poc-rg-terry"
+      },
+      "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/applicationGateways/poc-agw-terry-01/requestRoutingRules/www.example.com",
+      "name": "www.example.com",
+      "priority": 10,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-rg-terry",
+      "ruleType": "Basic",
+      "type": "Microsoft.Network/applicationGateways/requestRoutingRules"
+    }
+  ],
+  "resourceGroup": "poc-rg-terry",
+  "resourceGuid": "15a773f5-2488-4dce-8ea3-1cdad2a8a456",
+  "rewriteRuleSets": [],
+  "routingRules": [],
+  "sku": {
+    "capacity": 1,
+    "name": "Standard_v2",
+    "tier": "Standard_v2"
+  },
+  "sslCertificates": [],
+  "sslProfiles": [],
+  "tags": {
+    "EnhancedNetworkControl": "True"
+  },
+  "trustedClientCertificates": [],
+  "trustedRootCertificates": [],
+  "type": "Microsoft.Network/applicationGateways",
+  "urlPathMaps": []
+}

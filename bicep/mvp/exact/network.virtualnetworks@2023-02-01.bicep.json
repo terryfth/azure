@@ -1,0 +1,18 @@
+{
+  "addressSpace": {
+    "addressPrefixes": [
+      "10.0.0.0/16"
+    ]
+  },
+  "enableDdosProtection": false,
+  "etag": "W/\"4011d24b-279c-4104-9c6e-669b9a76095c\"",
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/virtualNetworks/poc-vnt-terry-01",
+  "location": "eastasia",
+  "name": "poc-vnt-terry-01",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "poc-rg-terry",
+  "resourceGuid": "b56aa9d1-04a0-4e8f-bcdb-3352fbead385",
+  "subnets": [],
+  "type": "Microsoft.Network/virtualNetworks",
+  "virtualNetworkPeerings": []
+}

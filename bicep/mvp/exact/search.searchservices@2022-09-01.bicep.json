@@ -1,0 +1,34 @@
+{
+  "authOptions": {
+    "aadOrApiKey": null,
+    "apiKeyOnly": {}
+  },
+  "disableLocalAuth": false,
+  "encryptionWithCmk": {
+    "encryptionComplianceStatus": "Compliant",
+    "enforcement": "Unspecified"
+  },
+  "hostingMode": "Default",
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Search/searchServices/poc-sss-terry-01",
+  "identity": null,
+  "location": "East Asia",
+  "name": "poc-sss-terry-01",
+  "networkRuleSet": {
+    "bypass": "None",
+    "ipRules": []
+  },
+  "partitionCount": 1,
+  "privateEndpointConnections": [],
+  "provisioningState": "succeeded",
+  "publicNetworkAccess": "Enabled",
+  "replicaCount": 1,
+  "resourceGroup": "poc-rg-terry",
+  "sharedPrivateLinkResources": [],
+  "sku": {
+    "name": "standard"
+  },
+  "status": "running",
+  "statusDetails": "",
+  "tags": null,
+  "type": "Microsoft.Search/searchServices"
+}

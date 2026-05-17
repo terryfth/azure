@@ -1,0 +1,39 @@
+[
+  {
+    "clusterSettings": null,
+    "customDnsSuffixConfiguration": null,
+    "dedicatedHostCount": null,
+    "dnsSuffix": "poc-ase-terry-01.p.azurewebsites.net",
+    "frontEndScaleFactor": null,
+    "hasLinuxWorkers": false,
+    "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/20230801/providers/Microsoft.Web/hostingEnvironments/poc-ase-terry-01",
+    "internalLoadBalancingMode": "None",
+    "ipsslAddressCount": 1,
+    "kind": "ASEV1",
+    "location": "East Asia",
+    "maximumNumberOfMachines": 55,
+    "multiRoleCount": 2,
+    "multiSize": "Medium",
+    "name": "poc-ase-terry-01",
+    "networkingConfiguration": null,
+    "provisioningState": "InProgress",
+    "resourceGroup": "20230801",
+    "status": "Preparing",
+    "suspended": false,
+    "tags": {
+      "environment": "poc"
+    },
+    "type": "Microsoft.Web/hostingEnvironments",
+    "upgradeAvailability": "None",
+    "upgradePreference": "None",
+    "userWhitelistedIpRanges": null,
+    "virtualNetwork": {
+      "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/20230801/providers/Microsoft.Network/virtualNetworks/poc-vnt-terry-01/subnets/ase",
+      "name": "ase",
+      "resourceGroup": "20230801",
+      "subnet": "",
+      "type": "Microsoft.Network/virtualNetworks/subnets"
+    },
+    "zoneRedundant": false
+  }
+]

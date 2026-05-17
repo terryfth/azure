@@ -1,0 +1,42 @@
+{
+  "dnsSettings": {
+    "appliedDnsServers": [],
+    "dnsServers": [],
+    "internalDomainNameSuffix": "50r1twiqohcetdzrzuwf1dmf4d.hx.internal.cloudapp.net"
+  },
+  "enableAcceleratedNetworking": false,
+  "enableIPForwarding": false,
+  "etag": "W/\"267f4d5c-ea8e-4ffc-a76d-4ef6c5808898\"",
+  "hostedWorkloads": [],
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/networkInterfaces/poc-nic-terry-mvp-01",
+  "ipConfigurations": [
+    {
+      "etag": "W/\"267f4d5c-ea8e-4ffc-a76d-4ef6c5808898\"",
+      "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/networkInterfaces/poc-nic-terry-mvp-01/ipConfigurations/ipconfig",
+      "name": "ipconfig",
+      "primary": true,
+      "privateIPAddress": "10.0.0.4",
+      "privateIPAddressVersion": "IPv4",
+      "privateIPAllocationMethod": "Dynamic",
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-rg-terry",
+      "subnet": {
+        "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/virtualNetworks/poc-vnt-terry-01/subnets/poc-sbn-terry-01",
+        "resourceGroup": "poc-rg-terry"
+      },
+      "type": "Microsoft.Network/networkInterfaces/ipConfigurations"
+    }
+  ],
+  "location": "eastasia",
+  "name": "poc-nic-terry-mvp-01",
+  "nicType": "Standard",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "poc-rg-terry",
+  "resourceGuid": "aa94edcd-42c6-46f3-a703-27c432aae416",
+  "tags": {
+    "environment": "poc"
+  },
+  "tapConfigurations": [],
+  "type": "Microsoft.Network/networkInterfaces",
+  "vnetEncryptionSupported": false
+}

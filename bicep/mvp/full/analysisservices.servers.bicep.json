@@ -1,0 +1,27 @@
+{
+  "value": [
+    {
+      "properties": {
+        "provisioningState": "Succeeded",
+        "state": "Succeeded",
+        "serverFullName": "asazure://eastus.asazure.windows.net/pocassterrymvp01",
+        "managedMode": 1,
+        "asAdministrators": {
+          "members": []
+        },
+        "serverMonitorMode": 1
+      },
+      "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/eastus/providers/Microsoft.AnalysisServices/servers/pocassterrymvp01",
+      "name": "pocassterrymvp01",
+      "type": "Microsoft.AnalysisServices/servers",
+      "location": "East US",
+      "sku": {
+        "name": "D1",
+        "tier": "Development"
+      },
+      "tags": {
+        "environment": "poc"
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+    "name": "azrapstrdkmld01",
+    "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Compute/virtualMachines/azrapstrdkmld01",
+    "type": "Microsoft.Compute/virtualMachines",
+    "location": "eastasia",
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "5d1ba48d-3620-45d7-aa75-d29cdd2fac5d",
+        "tenantId": "e6cbec2f-2f23-43ca-82c4-51a7c9b71e7a"
+    },
+    "properties": {
+        "hardwareProfile": {
+            "vmSize": "Standard_B2als_v2"
+        },
+        "provisioningState": "Succeeded",
+        "vmId": "4e28321f-66d6-4ae2-a189-56de0ca5f34e",
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "RedHat",
+                "offer": "RHEL",
+                "sku": "87-gen2",
+                "version": "latest",
+                "exactVersion": "8.7.2023022801"
+            },
+            "osDisk": {
+                "osType": "Linux",
+                "name": "azrapstrdkmld01-os",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "storageAccountType": "Premium_LRS",
+                    "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Compute/disks/azrapstrdkmld01-os"
+                },
+                "deleteOption": "Delete",
+                "diskSizeGB": 128
+            },
+            "dataDisks": []
+        },
+        "osProfile": {
+            "computerName": "azrapstrdkmld01",
+            "adminUsername": "terryfth",
+            "linuxConfiguration": {
+                "disablePasswordAuthentication": false,
+                "provisionVMAgent": true,
+                "patchSettings": {
+                    "patchMode": "ImageDefault",
+                    "assessmentMode": "ImageDefault"
+                }
+            },
+            "secrets": [],
+            "allowExtensionOperations": true,
+            "requireGuestProvisionSignal": true
+        },
+        "securityProfile": {
+            "uefiSettings": {
+                "secureBootEnabled": true,
+                "vTpmEnabled": true
+            },
+            "securityType": "TrustedLaunch"
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/networkInterfaces/azrapstrdkmld01-nic01",
+                    "properties": {
+                        "deleteOption": "Delete"
+                    }
+                }
+            ]
+        },
+        "diagnosticsProfile": {
+            "bootDiagnostics": {
+                "enabled": true
+            }
+        }
+    },
+    "zones": [
+        "1"
+    ]
+}{
+    "name": "azrapstrdkmld01",
+    "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Compute/virtualMachines/azrapstrdkmld01",
+    "type": "Microsoft.Compute/virtualMachines",
+    "location": "eastasia",
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "5d1ba48d-3620-45d7-aa75-d29cdd2fac5d",
+        "tenantId": "e6cbec2f-2f23-43ca-82c4-51a7c9b71e7a"
+    },
+    "properties": {
+        "hardwareProfile": {
+            "vmSize": "Standard_B2als_v2"
+        },
+        "provisioningState": "Succeeded",
+        "vmId": "4e28321f-66d6-4ae2-a189-56de0ca5f34e",
+        "storageProfile": {
+            "imageReference": {
+                "publisher": "RedHat",
+                "offer": "RHEL",
+                "sku": "87-gen2",
+                "version": "latest",
+                "exactVersion": "8.7.2023022801"
+            },
+            "osDisk": {
+                "osType": "Linux",
+                "name": "azrapstrdkmld01-os",
+                "createOption": "FromImage",
+                "caching": "ReadWrite",
+                "managedDisk": {
+                    "storageAccountType": "Premium_LRS",
+                    "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Compute/disks/azrapstrdkmld01-os"
+                },
+                "deleteOption": "Delete",
+                "diskSizeGB": 128
+            },
+            "dataDisks": []
+        },
+        "osProfile": {
+            "computerName": "azrapstrdkmld01",
+            "adminUsername": "terryfth",
+            "linuxConfiguration": {
+                "disablePasswordAuthentication": false,
+                "provisionVMAgent": true,
+                "patchSettings": {
+                    "patchMode": "ImageDefault",
+                    "assessmentMode": "ImageDefault"
+                }
+            },
+            "secrets": [],
+            "allowExtensionOperations": true,
+            "requireGuestProvisionSignal": true
+        },
+        "securityProfile": {
+            "uefiSettings": {
+                "secureBootEnabled": true,
+                "vTpmEnabled": true
+            },
+            "securityType": "TrustedLaunch"
+        },
+        "networkProfile": {
+            "networkInterfaces": [
+                {
+                    "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/networkInterfaces/azrapstrdkmld01-nic01",
+                    "properties": {
+                        "deleteOption": "Delete"
+                    }
+                }
+            ]
+        },
+        "diagnosticsProfile": {
+            "bootDiagnostics": {
+                "enabled": true
+            }
+        }
+    },
+    "zones": [
+        "1"
+    ]
+}

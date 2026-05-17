@@ -1,0 +1,11 @@
+{
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry-01",
+  "location": "eastasia",
+  "managedBy": null,
+  "name": "poc-rg-terry-01",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}

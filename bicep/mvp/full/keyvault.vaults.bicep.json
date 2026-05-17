@@ -1,0 +1,40 @@
+{
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.KeyVault/vaults/poc-akv-terry-04",
+  "location": "eastasia",
+  "name": "poc-akv-terry-04",
+  "properties": {
+    "accessPolicies": [],
+    "createMode": null,
+    "enablePurgeProtection": null,
+    "enableRbacAuthorization": null,
+    "enableSoftDelete": true,
+    "enabledForDeployment": false,
+    "enabledForDiskEncryption": null,
+    "enabledForTemplateDeployment": null,
+    "hsmPoolResourceId": null,
+    "networkAcls": null,
+    "privateEndpointConnections": null,
+    "provisioningState": "Succeeded",
+    "publicNetworkAccess": "Enabled",
+    "sku": {
+      "family": "A",
+      "name": "standard"
+    },
+    "softDeleteRetentionInDays": null,
+    "tenantId": "e6cbec2f-2f23-43ca-82c4-51a7c9b71e7a",
+    "vaultUri": "https://poc-akv-terry-04.vault.azure.net/"
+  },
+  "resourceGroup": "poc-rg-terry",
+  "systemData": {
+    "createdAt": "2023-07-21T10:01:00.292000+00:00",
+    "createdBy": "terry.fung_ext@chanel.com",
+    "createdByType": "User",
+    "lastModifiedAt": "2023-07-21T10:01:00.292000+00:00",
+    "lastModifiedBy": "terry.fung_ext@chanel.com",
+    "lastModifiedByType": "User"
+  },
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.KeyVault/vaults"
+}

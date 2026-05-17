@@ -1,0 +1,25 @@
+{
+  "disableBgpRoutePropagation": false,
+  "etag": "W/\"0da19881-ca78-48b9-b92b-5a6b1dd7a356\"",
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/routeTables/poc-rtb-terry-01",
+  "location": "eastasia",
+  "name": "poc-rtb-terry-01",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "poc-rg-terry",
+  "resourceGuid": "6c579d4b-a197-4314-a3fe-e0ad79ea281e",
+  "routes": [
+    {
+      "addressPrefix": "0.0.0.0/0",
+      "etag": "W/\"0da19881-ca78-48b9-b92b-5a6b1dd7a356\"",
+      "hasBgpOverride": false,
+      "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/routeTables/poc-rtb-terry-01/routes/default_route",
+      "name": "default_route",
+      "nextHopIpAddress": "10.99.128.68",
+      "nextHopType": "VirtualAppliance",
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-rg-terry",
+      "type": "Microsoft.Network/routeTables/routes"
+    }
+  ],
+  "type": "Microsoft.Network/routeTables"
+}

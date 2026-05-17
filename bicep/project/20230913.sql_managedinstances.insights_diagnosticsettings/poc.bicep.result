@@ -1,0 +1,56 @@
+{
+  "id": "/subscriptions/ddfa8fae-f6ec-433c-b929-1d876cc68299/resourceGroups/cn-hb3-dev-pfl-db-rg/providers/Microsoft.Resources/deployments/poc",
+  "location": null,
+  "name": "poc",
+  "properties": {
+    "correlationId": "9359e4bd-b15a-495f-a728-754a86c66796",
+    "debugSetting": null,
+    "dependencies": [],
+    "duration": "PT4.2519099S",
+    "error": null,
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputResources": [
+      {
+        "id": "/subscriptions/ddfa8fae-f6ec-433c-b929-1d876cc68299/resourceGroups/cn-hb3-dev-pfl-db-rg/providers/Microsoft.Sql/managedInstances/cn-hb3-dev-pfl-sqlm/providers/Microsoft.Insights/diagnosticSettings/aes",
+        "resourceGroup": "cn-hb3-dev-pfl-db-rg"
+      }
+    ],
+    "outputs": null,
+    "parameters": null,
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Insights",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "diagnosticSettings",
+            "zoneMappings": null
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "templateHash": "426023411699022635",
+    "templateLink": null,
+    "timestamp": "2023-09-13T02:36:21.519384+00:00",
+    "validatedResources": null
+  },
+  "resourceGroup": "cn-hb3-dev-pfl-db-rg",
+  "tags": null,
+  "type": "Microsoft.Resources/deployments"
+}

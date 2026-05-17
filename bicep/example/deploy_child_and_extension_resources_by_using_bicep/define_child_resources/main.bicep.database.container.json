@@ -1,0 +1,69 @@
+{
+  "id": "/subscriptions/1f1aa1cf-6365-422a-8504-a1acdf9bc529/resourceGroups/learn-9b3b7612-f8be-48b8-ae43-88dadcb74bf4/providers/Microsoft.DocumentDB/databaseAccounts/toyrnd-ndrbolqpyofws/sqlDatabases/FlightTests/containers/FlightTests",
+  "location": null,
+  "name": "FlightTests",
+  "options": null,
+  "resource": {
+    "_conflicts": "conflicts/",
+    "_docs": "docs/",
+    "_self": "dbs/eZ9jAA==/colls/eZ9jAJXAkZE=/",
+    "_sprocs": "sprocs/",
+    "_triggers": "triggers/",
+    "_udfs": "udfs/",
+    "analyticalStorageTtl": null,
+    "clientEncryptionPolicy": null,
+    "conflictResolutionPolicy": {
+      "conflictResolutionPath": "/_ts",
+      "conflictResolutionProcedure": "",
+      "mode": "LastWriterWins"
+    },
+    "defaultTtl": null,
+    "etag": "\"00004400-0000-0700-0000-64c52a4f0000\"",
+    "geospatialConfig": {
+      "type": "Geography"
+    },
+    "id": "FlightTests",
+    "indexingPolicy": {
+      "automatic": true,
+      "compositeIndexes": null,
+      "excludedPaths": [
+        {
+          "path": "/\"_etag\"/?"
+        }
+      ],
+      "includedPaths": [
+        {
+          "indexes": null,
+          "path": "/*"
+        }
+      ],
+      "indexingMode": "consistent",
+      "spatialIndexes": null
+    },
+    "partitionKey": {
+      "kind": "Hash",
+      "paths": [
+        "/droneId"
+      ],
+      "systemKey": null,
+      "version": null
+    },
+    "rid": "eZ9jAJXAkZE=",
+    "statistics": [
+      {
+        "documentCount": 0,
+        "id": "0",
+        "partitionKeys": [],
+        "sampledDistinctPartitionKeyCount": 0,
+        "sizeInKB": 0
+      }
+    ],
+    "ts": 1690643023.0,
+    "uniqueKeyPolicy": {
+      "uniqueKeys": []
+    }
+  },
+  "resourceGroup": "learn-9b3b7612-f8be-48b8-ae43-88dadcb74bf4",
+  "tags": null,
+  "type": "Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers"
+}

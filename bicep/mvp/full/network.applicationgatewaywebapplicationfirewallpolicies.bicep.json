@@ -1,0 +1,58 @@
+{
+  "applicationGateways": [
+    {
+      "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01",
+      "resourceGroup": "poc-20230802"
+    }
+  ],
+  "customRules": [
+    {
+      "action": "Allow",
+      "matchConditions": [
+        {
+          "matchValues": [
+            "122.224.10.0/25"
+          ],
+          "matchVariables": [
+            {
+              "variableName": "RemoteAddr"
+            }
+          ],
+          "negationConditon": false,
+          "operator": "IPMatch",
+          "transforms": []
+        }
+      ],
+      "name": "AkamaiWhitelist",
+      "priority": 10,
+      "ruleType": "MatchRule"
+    }
+  ],
+  "etag": "W/\"e6f660be-b8a3-4faf-b98c-c38abb502822\"",
+  "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/ApplicationGatewayWebApplicationFirewallPolicies/poc-waf-terry-01",
+  "location": "chinanorth3",
+  "managedRules": {
+    "exclusions": [],
+    "managedRuleSets": [
+      {
+        "ruleGroupOverrides": [],
+        "ruleSetType": "OWASP",
+        "ruleSetVersion": "3.1"
+      }
+    ]
+  },
+  "name": "poc-waf-terry-01",
+  "policySettings": {
+    "fileUploadLimitInMb": 100,
+    "maxRequestBodySizeInKb": 128,
+    "mode": "Detection",
+    "requestBodyCheck": true,
+    "state": "Disabled"
+  },
+  "provisioningState": "Succeeded",
+  "resourceGroup": "poc-20230802",
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.Network/ApplicationGatewayWebApplicationFirewallPolicies"
+}

@@ -1,0 +1,35 @@
+{
+  "etag": "W/\"datetime'2023-08-11T06%3A25%3A15.4510673Z'\"",
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.RecoveryServices/vaults/poc-rsv-terry-01",
+  "identity": null,
+  "location": "eastasia",
+  "name": "poc-rsv-terry-01",
+  "properties": {
+    "backupStorageVersion": null,
+    "encryption": null,
+    "monitoringSettings": null,
+    "moveDetails": null,
+    "moveState": null,
+    "privateEndpointConnections": null,
+    "privateEndpointStateForBackup": "None",
+    "privateEndpointStateForSiteRecovery": "None",
+    "provisioningState": "Succeeded",
+    "publicNetworkAccess": "Enabled",
+    "redundancySettings": null,
+    "securitySettings": null,
+    "upgradeDetails": null
+  },
+  "resourceGroup": "poc-rg-terry",
+  "sku": {
+    "capacity": null,
+    "family": null,
+    "name": "RS0",
+    "size": null,
+    "tier": "Standard"
+  },
+  "systemData": null,
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.RecoveryServices/vaults"
+}

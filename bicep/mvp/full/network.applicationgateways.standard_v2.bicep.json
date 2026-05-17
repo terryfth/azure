@@ -1,0 +1,148 @@
+{
+  "backendAddressPools": [
+    {
+      "backendAddresses": [
+        {
+          "ipAddress": "10.0.1.1"
+        }
+      ],
+      "etag": "W/\"0d078e51-4031-4dc3-a816-5d0ca86c5204\"",
+      "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/backendAddressPools/backendpool01",
+      "name": "backendpool01",
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-20230802",
+      "type": "Microsoft.Network/applicationGateways/backendAddressPools"
+    }
+  ],
+  "backendHttpSettingsCollection": [
+    {
+      "cookieBasedAffinity": "Disabled",
+      "etag": "W/\"0d078e51-4031-4dc3-a816-5d0ca86c5204\"",
+      "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/backendHttpSettingsCollection/http_80",
+      "name": "http_80",
+      "pickHostNameFromBackendAddress": false,
+      "port": 80,
+      "protocol": "Http",
+      "provisioningState": "Succeeded",
+      "requestTimeout": 30,
+      "resourceGroup": "poc-20230802",
+      "type": "Microsoft.Network/applicationGateways/backendHttpSettingsCollection"
+    }
+  ],
+  "backendSettingsCollection": [],
+  "etag": "W/\"0d078e51-4031-4dc3-a816-5d0ca86c5204\"",
+  "frontendIPConfigurations": [
+    {
+      "etag": "W/\"0d078e51-4031-4dc3-a816-5d0ca86c5204\"",
+      "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/frontendIPConfigurations/frontendIp01",
+      "name": "frontendIp01",
+      "privateIPAllocationMethod": "Dynamic",
+      "provisioningState": "Succeeded",
+      "publicIPAddress": {
+        "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/publicIPAddresses/poc-pip-terry-01",
+        "resourceGroup": "poc-20230802"
+      },
+      "resourceGroup": "poc-20230802",
+      "type": "Microsoft.Network/applicationGateways/frontendIPConfigurations"
+    }
+  ],
+  "frontendPorts": [
+    {
+      "etag": "W/\"0d078e51-4031-4dc3-a816-5d0ca86c5204\"",
+      "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/frontendPorts/port_80",
+      "name": "port_80",
+      "port": 80,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-20230802",
+      "type": "Microsoft.Network/applicationGateways/frontendPorts"
+    }
+  ],
+  "gatewayIPConfigurations": [
+    {
+      "etag": "W/\"0d078e51-4031-4dc3-a816-5d0ca86c5204\"",
+      "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/gatewayIPConfigurations/gatewayIpConfig1",
+      "name": "gatewayIpConfig1",
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-20230802",
+      "subnet": {
+        "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/virtualNetworks/poc-vnt-terry-01/subnets/poc-sbn-agw",
+        "resourceGroup": "poc-20230802"
+      },
+      "type": "Microsoft.Network/applicationGateways/gatewayIPConfigurations"
+    }
+  ],
+  "httpListeners": [
+    {
+      "etag": "W/\"0d078e51-4031-4dc3-a816-5d0ca86c5204\"",
+      "frontendIPConfiguration": {
+        "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/frontendIPConfigurations/frontendIp01",
+        "resourceGroup": "poc-20230802"
+      },
+      "frontendPort": {
+        "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/frontendPorts/port_80",
+        "resourceGroup": "poc-20230802"
+      },
+      "hostNames": [],
+      "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/httpListeners/listener01",
+      "name": "listener01",
+      "protocol": "Http",
+      "provisioningState": "Succeeded",
+      "requireServerNameIndication": false,
+      "resourceGroup": "poc-20230802",
+      "type": "Microsoft.Network/applicationGateways/httpListeners"
+    }
+  ],
+  "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01",
+  "listeners": [],
+  "loadDistributionPolicies": [],
+  "location": "chinanorth3",
+  "name": "poc-agw-terry-mvp-01",
+  "operationalState": "Running",
+  "privateEndpointConnections": [],
+  "privateLinkConfigurations": [],
+  "probes": [],
+  "provisioningState": "Succeeded",
+  "redirectConfigurations": [],
+  "requestRoutingRules": [
+    {
+      "backendAddressPool": {
+        "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/backendAddressPools/backendpool01",
+        "resourceGroup": "poc-20230802"
+      },
+      "backendHttpSettings": {
+        "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/backendHttpSettingsCollection/http_80",
+        "resourceGroup": "poc-20230802"
+      },
+      "etag": "W/\"0d078e51-4031-4dc3-a816-5d0ca86c5204\"",
+      "httpListener": {
+        "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/httpListeners/listener01",
+        "resourceGroup": "poc-20230802"
+      },
+      "id": "/subscriptions/13b900bf-01eb-4789-874e-51b339d6bbe5/resourceGroups/poc-20230802/providers/Microsoft.Network/applicationGateways/poc-agw-terry-mvp-01/requestRoutingRules/requestRoutingRule01",
+      "name": "requestRoutingRule01",
+      "priority": 10,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "poc-20230802",
+      "ruleType": "Basic",
+      "type": "Microsoft.Network/applicationGateways/requestRoutingRules"
+    }
+  ],
+  "resourceGroup": "poc-20230802",
+  "resourceGuid": "f2aa273f-2ff3-4203-9ecb-1781ec547dd2",
+  "rewriteRuleSets": [],
+  "routingRules": [],
+  "sku": {
+    "capacity": 1,
+    "name": "Standard_v2",
+    "tier": "Standard_v2"
+  },
+  "sslCertificates": [],
+  "sslProfiles": [],
+  "tags": {
+    "environment": "poc"
+  },
+  "trustedClientCertificates": [],
+  "trustedRootCertificates": [],
+  "type": "Microsoft.Network/applicationGateways",
+  "urlPathMaps": []
+}

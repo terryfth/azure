@@ -1,0 +1,91 @@
+resource symbolicname 'Microsoft.MachineLearningServices/workspaces@2023-10-01' = {
+  name: 'string'
+  location: 'string'
+  tags: {
+    tagName1: 'tagValue1'
+    tagName2: 'tagValue2'
+  }
+    {customized property}: 'string'
+  sku: {
+    capacity: int
+    family: 'string'
+    name: 'string'
+    size: 'string'
+    tier: 'string'
+  }
+  kind: 'string'
+  identity: {
+    type: 'string'
+    userAssignedIdentities: {
+      {customized property}: {}
+    }
+  }
+  properties: {
+    allowPublicAccessWhenBehindVnet: bool
+    applicationInsights: 'string'
+    containerRegistry: 'string'
+    description: 'string'
+    discoveryUrl: 'string'
+    encryption: {
+      identity: {
+        userAssignedIdentity: 'string'
+      }
+      keyVaultProperties: {
+        identityClientId: 'string'
+        keyIdentifier: 'string'
+        keyVaultArmId: 'string'
+      }
+      status: 'string'
+    }
+    featureStoreSettings: {
+      computeRuntime: {
+        sparkRuntimeVersion: 'string'
+      }
+      offlineStoreConnectionName: 'string'
+      onlineStoreConnectionName: 'string'
+    }
+    friendlyName: 'string'
+    hbiWorkspace: bool
+    imageBuildCompute: 'string'
+    keyVault: 'string'
+    managedNetwork: {
+      isolationMode: 'string'
+      outboundRules: {
+        {customized property}: {
+          category: 'string'
+          status: 'string'
+          type: 'string'
+          destination: 'string'
+        }
+      }
+      status: {
+        sparkReady: bool
+        status: 'string'
+      }
+    }
+    primaryUserAssignedIdentity: 'string'
+    publicNetworkAccess: 'string'
+    serverlessComputeSettings: {
+      serverlessComputeCustomSubnet: 'string'
+      serverlessComputeNoPublicIP: bool
+    }
+    serviceManagedResourcesSettings: {
+      cosmosDb: {
+        collectionsThroughput: int
+      }
+    }
+    sharedPrivateLinkResources: [
+      {
+        name: 'string'
+        properties: {
+          groupId: 'string'
+          privateLinkResourceId: 'string'
+          requestMessage: 'string'
+          status: 'string'
+        }
+      }
+    ]
+    storageAccount: 'string'
+    v1LegacyMode: bool
+  }
+}

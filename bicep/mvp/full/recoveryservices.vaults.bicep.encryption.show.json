@@ -1,0 +1,18 @@
+{
+  "eTag": null,
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.RecoveryServices/vaults/poc-rsv-terry-01/backupEncryptionConfigs/backupResourceEncryptionConfig",
+  "location": null,
+  "name": "backupResourceEncryptionConfig",
+  "properties": {
+    "encryptionAtRestType": "MicrosoftManaged",
+    "infrastructureEncryptionState": "Disabled",
+    "keyUri": null,
+    "lastUpdateStatus": "NotEnabled",
+    "subscriptionId": null,
+    "useSystemAssignedIdentity": true,
+    "userAssignedIdentity": null
+  },
+  "resourceGroup": "poc-rg-terry",
+  "tags": null,
+  "type": "Microsoft.RecoveryServices/vaults/backupEncryptionConfigs"
+}

@@ -1,0 +1,14 @@
+{
+  "etag": "0d7fa9db-92d1-4e30-a4d2-3907992350d2",
+  "firewalls": [],
+  "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourcegroups/poc-20230716/providers/Microsoft.Network/ipGroups/poc-ipg-terry-mvp-01",
+  "ipAddresses": [],
+  "location": "eastasia",
+  "name": "poc-ipg-terry-mvp-01",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "poc-20230716",
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.Network/IpGroups"
+}

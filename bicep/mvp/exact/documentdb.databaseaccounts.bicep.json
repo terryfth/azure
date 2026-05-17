@@ -1,0 +1,120 @@
+{
+  "analyticalStorageConfiguration": {
+    "schemaType": null
+  },
+  "apiProperties": null,
+  "backupPolicy": {
+    "migrationState": null,
+    "periodicModeProperties": {
+      "backupIntervalInMinutes": 240,
+      "backupRetentionIntervalInHours": 8,
+      "backupStorageRedundancy": "Geo"
+    },
+    "type": "Periodic"
+  },
+  "capabilities": [],
+  "capacity": null,
+  "connectorOffer": null,
+  "consistencyPolicy": {
+    "defaultConsistencyLevel": "Session",
+    "maxIntervalInSeconds": 5,
+    "maxStalenessPrefix": 100
+  },
+  "cors": [],
+  "createMode": null,
+  "databaseAccountOfferType": "Standard",
+  "defaultIdentity": "FirstPartyIdentity",
+  "disableKeyBasedMetadataWriteAccess": false,
+  "disableLocalAuth": false,
+  "documentEndpoint": "https://poc-rg-terry-01.documents.azure.com:443/",
+  "enableAnalyticalStorage": false,
+  "enableAutomaticFailover": false,
+  "enableCassandraConnector": null,
+  "enableFreeTier": false,
+  "enableMultipleWriteLocations": false,
+  "enablePartitionMerge": false,
+  "failoverPolicies": [
+    {
+      "failoverPriority": 0,
+      "id": "poc-rg-terry-01-eastasia",
+      "locationName": "East Asia"
+    }
+  ],
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.DocumentDB/databaseAccounts/poc-rg-terry-01",
+  "identity": {
+    "principalId": null,
+    "tenantId": null,
+    "type": "None",
+    "userAssignedIdentities": null
+  },
+  "instanceId": "e50a5699-afe7-4bd2-96ec-8cdf59ef9b9e",
+  "ipRules": [],
+  "isVirtualNetworkFilterEnabled": false,
+  "keyVaultKeyUri": null,
+  "keysMetadata": {
+    "primaryMasterKey": {
+      "generationTime": "2023-10-12T08:18:51.267257+00:00"
+    },
+    "primaryReadonlyMasterKey": {
+      "generationTime": "2023-10-12T08:18:51.267257+00:00"
+    },
+    "secondaryMasterKey": {
+      "generationTime": "2023-10-12T08:18:51.267257+00:00"
+    },
+    "secondaryReadonlyMasterKey": {
+      "generationTime": "2023-10-12T08:18:51.267257+00:00"
+    }
+  },
+  "kind": "GlobalDocumentDB",
+  "location": "East Asia",
+  "locations": [
+    {
+      "documentEndpoint": "https://poc-rg-terry-01-eastasia.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "poc-rg-terry-01-eastasia",
+      "isZoneRedundant": false,
+      "locationName": "East Asia",
+      "provisioningState": "Succeeded"
+    }
+  ],
+  "minimalTlsVersion": "Tls",
+  "name": "poc-rg-terry-01",
+  "networkAclBypass": "None",
+  "networkAclBypassResourceIds": [],
+  "privateEndpointConnections": null,
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "readLocations": [
+    {
+      "documentEndpoint": "https://poc-rg-terry-01-eastasia.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "poc-rg-terry-01-eastasia",
+      "isZoneRedundant": false,
+      "locationName": "East Asia",
+      "provisioningState": "Succeeded"
+    }
+  ],
+  "resourceGroup": "poc-rg-terry",
+  "restoreParameters": null,
+  "systemData": {
+    "createdAt": "2023-10-12T08:18:51.267257+00:00",
+    "createdBy": null,
+    "createdByType": null,
+    "lastModifiedAt": null,
+    "lastModifiedBy": null,
+    "lastModifiedByType": null
+  },
+  "tags": {},
+  "type": "Microsoft.DocumentDB/databaseAccounts",
+  "virtualNetworkRules": [],
+  "writeLocations": [
+    {
+      "documentEndpoint": "https://poc-rg-terry-01-eastasia.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "poc-rg-terry-01-eastasia",
+      "isZoneRedundant": false,
+      "locationName": "East Asia",
+      "provisioningState": "Succeeded"
+    }
+  ]
+}

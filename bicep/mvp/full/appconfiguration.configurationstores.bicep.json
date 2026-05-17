@@ -1,0 +1,34 @@
+{
+  "createMode": null,
+  "creationDate": "2023-07-15T07:35:48+00:00",
+  "disableLocalAuth": false,
+  "enablePurgeProtection": false,
+  "encryption": {
+    "keyVaultProperties": null
+  },
+  "endpoint": "https://poc-acs-terry-01.azconfig.io",
+  "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/poc-20230715/providers/Microsoft.AppConfiguration/configurationStores/poc-acs-terry-01",
+  "identity": null,
+  "location": "eastasia",
+  "name": "poc-acs-terry-01",
+  "privateEndpointConnections": null,
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": null,
+  "resourceGroup": "poc-20230715",
+  "sku": {
+    "name": "free"
+  },
+  "softDeleteRetentionInDays": 0,
+  "systemData": {
+    "createdAt": "2023-07-15T07:35:48+00:00",
+    "createdBy": "terryfth@live.hk",
+    "createdByType": "User",
+    "lastModifiedAt": "2023-07-15T07:35:49+00:00",
+    "lastModifiedBy": "terryfth@live.hk",
+    "lastModifiedByType": "User"
+  },
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.AppConfiguration/configurationStores"
+}

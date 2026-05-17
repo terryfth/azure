@@ -1,0 +1,7 @@
+resource symbolicname 'Microsoft.Sql/servers/databases/transparentDataEncryption@2022-05-01-preview' = {
+  name: 'current'
+  parent: resourceSymbolicName
+  properties: {
+    state: 'string'
+  }
+}

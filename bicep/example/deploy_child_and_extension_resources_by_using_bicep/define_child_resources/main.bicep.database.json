@@ -1,0 +1,18 @@
+{
+  "id": "/subscriptions/1f1aa1cf-6365-422a-8504-a1acdf9bc529/resourceGroups/learn-9b3b7612-f8be-48b8-ae43-88dadcb74bf4/providers/Microsoft.DocumentDB/databaseAccounts/toyrnd-ndrbolqpyofws/sqlDatabases/FlightTests",
+  "location": null,
+  "name": "FlightTests",
+  "options": null,
+  "resource": {
+    "_self": "dbs/eZ9jAA==/",
+    "colls": "colls/",
+    "etag": "\"00004000-0000-0700-0000-64c52a3d0000\"",
+    "id": "FlightTests",
+    "rid": "eZ9jAA==",
+    "ts": 1690643005.0,
+    "users": "users/"
+  },
+  "resourceGroup": "learn-9b3b7612-f8be-48b8-ae43-88dadcb74bf4",
+  "tags": null,
+  "type": "Microsoft.DocumentDB/databaseAccounts/sqlDatabases"
+}

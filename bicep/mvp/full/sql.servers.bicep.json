@@ -1,0 +1,27 @@
+{
+  "administratorLogin": "sqldba",
+  "administratorLoginPassword": null,
+  "administrators": null,
+  "externalGovernanceStatus": "Disabled",
+  "federatedClientId": null,
+  "fullyQualifiedDomainName": "poc-sqs-terry-1.database.windows.net",
+  "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/20230801/providers/Microsoft.Sql/servers/poc-sqs-terry-1",
+  "identity": null,
+  "keyId": null,
+  "kind": "v12.0",
+  "location": "eastasia",
+  "minimalTlsVersion": "None",
+  "name": "poc-sqs-terry-1",
+  "primaryUserAssignedIdentityId": null,
+  "privateEndpointConnections": [],
+  "publicNetworkAccess": "Enabled",
+  "resourceGroup": "20230801",
+  "restrictOutboundNetworkAccess": "Disabled",
+  "state": "Ready",
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.Sql/servers",
+  "version": "12.0",
+  "workspaceFeature": null
+}

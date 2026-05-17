@@ -1,0 +1,44 @@
+[
+  {
+    "elasticScaleEnabled": false,
+    "extendedLocation": null,
+    "freeOfferExpirationTime": null,
+    "hostingEnvironmentProfile": null,
+    "hyperV": false,
+    "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/20230801/providers/Microsoft.Web/serverfarms/poc-wsf-terry-01",
+    "isSpot": false,
+    "isXenon": false,
+    "kind": "app",
+    "kubeEnvironmentProfile": null,
+    "location": "East Asia",
+    "maximumElasticWorkerCount": 1,
+    "maximumNumberOfWorkers": 10,
+    "name": "poc-wsf-terry-01",
+    "numberOfSites": 0,
+    "numberOfWorkers": 1,
+    "perSiteScaling": false,
+    "provisioningState": null,
+    "reserved": false,
+    "resourceGroup": "20230801",
+    "sku": {
+      "capabilities": null,
+      "capacity": 1,
+      "family": "S",
+      "locations": null,
+      "name": "S1",
+      "size": "S1",
+      "skuCapacity": null,
+      "tier": "Standard"
+    },
+    "spotExpirationTime": null,
+    "status": "Ready",
+    "tags": {
+      "environment": "poc"
+    },
+    "targetWorkerCount": 0,
+    "targetWorkerSizeId": 0,
+    "type": "Microsoft.Web/serverfarms",
+    "workerTierName": null,
+    "zoneRedundant": false
+  }
+]

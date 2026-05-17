@@ -1,0 +1,2 @@
+ az deployment  group create -n terry -g MC_poc-rg-enactorpos-01_poc-aks-cluster-01_eastasia  -f main.bicep  --subscription 104bc243-b670-4107-973
+b-4855c3aab84b

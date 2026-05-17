@@ -1,0 +1,120 @@
+{
+  "analyticalStorageConfiguration": {
+    "schemaType": "WellDefined"
+  },
+  "apiProperties": null,
+  "backupPolicy": {
+    "migrationState": null,
+    "periodicModeProperties": {
+      "backupIntervalInMinutes": 240,
+      "backupRetentionIntervalInHours": 8,
+      "backupStorageRedundancy": "Geo"
+    },
+    "type": "Periodic"
+  },
+  "capabilities": [],
+  "capacity": null,
+  "connectorOffer": null,
+  "consistencyPolicy": {
+    "defaultConsistencyLevel": "Session",
+    "maxIntervalInSeconds": 5,
+    "maxStalenessPrefix": 100
+  },
+  "cors": [],
+  "createMode": null,
+  "databaseAccountOfferType": "Standard",
+  "defaultIdentity": "FirstPartyIdentity",
+  "disableKeyBasedMetadataWriteAccess": false,
+  "disableLocalAuth": false,
+  "documentEndpoint": "https://toyrnd-ndrbolqpyofws.documents.azure.com:443/",
+  "enableAnalyticalStorage": false,
+  "enableAutomaticFailover": false,
+  "enableCassandraConnector": null,
+  "enableFreeTier": false,
+  "enableMultipleWriteLocations": false,
+  "enablePartitionMerge": false,
+  "failoverPolicies": [
+    {
+      "failoverPriority": 0,
+      "id": "toyrnd-ndrbolqpyofws-westus",
+      "locationName": "West US"
+    }
+  ],
+  "id": "/subscriptions/1f1aa1cf-6365-422a-8504-a1acdf9bc529/resourceGroups/learn-9b3b7612-f8be-48b8-ae43-88dadcb74bf4/providers/Microsoft.DocumentDB/databaseAccounts/toyrnd-ndrbolqpyofws",
+  "identity": {
+    "principalId": null,
+    "tenantId": null,
+    "type": "None",
+    "userAssignedIdentities": null
+  },
+  "instanceId": "b7c08268-d7cb-4688-bebd-47f65eb4d47b",
+  "ipRules": [],
+  "isVirtualNetworkFilterEnabled": false,
+  "keyVaultKeyUri": null,
+  "keysMetadata": {
+    "primaryMasterKey": {
+      "generationTime": "2023-07-29T15:03:03.173746+00:00"
+    },
+    "primaryReadonlyMasterKey": {
+      "generationTime": "2023-07-29T15:03:03.173746+00:00"
+    },
+    "secondaryMasterKey": {
+      "generationTime": "2023-07-29T15:03:03.173746+00:00"
+    },
+    "secondaryReadonlyMasterKey": {
+      "generationTime": "2023-07-29T15:03:03.173746+00:00"
+    }
+  },
+  "kind": "GlobalDocumentDB",
+  "location": "West US",
+  "locations": [
+    {
+      "documentEndpoint": "https://toyrnd-ndrbolqpyofws-westus.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "toyrnd-ndrbolqpyofws-westus",
+      "isZoneRedundant": false,
+      "locationName": "West US",
+      "provisioningState": "Succeeded"
+    }
+  ],
+  "minimalTlsVersion": "Tls",
+  "name": "toyrnd-ndrbolqpyofws",
+  "networkAclBypass": "None",
+  "networkAclBypassResourceIds": [],
+  "privateEndpointConnections": null,
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "readLocations": [
+    {
+      "documentEndpoint": "https://toyrnd-ndrbolqpyofws-westus.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "toyrnd-ndrbolqpyofws-westus",
+      "isZoneRedundant": false,
+      "locationName": "West US",
+      "provisioningState": "Succeeded"
+    }
+  ],
+  "resourceGroup": "learn-9b3b7612-f8be-48b8-ae43-88dadcb74bf4",
+  "restoreParameters": null,
+  "systemData": {
+    "createdAt": "2023-07-29T15:03:03.173746+00:00",
+    "createdBy": null,
+    "createdByType": null,
+    "lastModifiedAt": null,
+    "lastModifiedBy": null,
+    "lastModifiedByType": null
+  },
+  "tags": {},
+  "type": "Microsoft.DocumentDB/databaseAccounts",
+  "virtualNetworkRules": [],
+  "writeLocations": [
+    {
+      "documentEndpoint": "https://toyrnd-ndrbolqpyofws-westus.documents.azure.com:443/",
+      "failoverPriority": 0,
+      "id": "toyrnd-ndrbolqpyofws-westus",
+      "isZoneRedundant": false,
+      "locationName": "West US",
+      "provisioningState": "Succeeded"
+    }
+  ]
+}

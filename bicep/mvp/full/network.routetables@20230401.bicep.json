@@ -1,0 +1,12 @@
+{
+  "disableBgpRoutePropagation": false,
+  "etag": "W/\"949de7fc-eae8-4739-a3d4-7c30e53186e6\"",
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/routeTables/poc-rtb-terry-01",
+  "location": "eastasia",
+  "name": "poc-rtb-terry-01",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "poc-rg-terry",
+  "resourceGuid": "6c579d4b-a197-4314-a3fe-e0ad79ea281e",
+  "routes": [],
+  "type": "Microsoft.Network/routeTables"
+}

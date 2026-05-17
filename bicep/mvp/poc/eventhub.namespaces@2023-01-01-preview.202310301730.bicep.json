@@ -1,0 +1,26 @@
+{
+  "createdAt": "2023-10-30T09:25:31.253Z",
+  "disableLocalAuth": false,
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.EventHub/namespaces/poc-evh-terry-02",
+  "isAutoInflateEnabled": false,
+  "kafkaEnabled": true,
+  "location": "East Asia",
+  "maximumThroughputUnits": 0,
+  "metricId": "02af7de8-5a55-4ea6-8951-7af0eb7581fb:poc-evh-terry-02",
+  "minimumTlsVersion": "1.2",
+  "name": "poc-evh-terry-02",
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "resourceGroup": "poc-rg-terry",
+  "serviceBusEndpoint": "https://poc-evh-terry-02.servicebus.windows.net:443/",
+  "sku": {
+    "capacity": 1,
+    "name": "Premium",
+    "tier": "Premium"
+  },
+  "status": "Active",
+  "tags": {},
+  "type": "Microsoft.EventHub/Namespaces",
+  "updatedAt": "2023-10-30T09:26:57.563Z",
+  "zoneRedundant": true
+}

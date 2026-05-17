@@ -1,0 +1,63 @@
+{
+  "accessKeys": null,
+  "enableNonSslPort": false,
+  "hostName": "poc-rdi-terry-mvp-01.redis.cache.windows.net",
+  "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/poc-20230715/providers/Microsoft.Cache/Redis/poc-rdi-terry-mvp-01",
+  "identity": null,
+  "instances": [
+    {
+      "isMaster": true,
+      "isPrimary": true,
+      "nonSslPort": null,
+      "shardId": null,
+      "sslPort": 15000,
+      "zone": null
+    }
+  ],
+  "linkedServers": [],
+  "location": "East Asia",
+  "minimumTlsVersion": null,
+  "name": "poc-rdi-terry-mvp-01",
+  "port": 6379,
+  "privateEndpointConnections": null,
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "redisConfiguration": {
+    "additionalProperties": null,
+    "aofBackupEnabled": null,
+    "aofStorageConnectionString0": null,
+    "aofStorageConnectionString1": null,
+    "authnotrequired": null,
+    "maxclients": "256",
+    "maxfragmentationmemoryReserved": "30",
+    "maxmemoryDelta": "30",
+    "maxmemoryPolicy": null,
+    "maxmemoryReserved": "30",
+    "preferredDataArchiveAuthMethod": null,
+    "preferredDataPersistenceAuthMethod": null,
+    "rdbBackupEnabled": null,
+    "rdbBackupFrequency": null,
+    "rdbBackupMaxSnapshotCount": null,
+    "rdbStorageConnectionString": null,
+    "zonalConfiguration": null
+  },
+  "redisVersion": "6.0",
+  "replicasPerMaster": null,
+  "replicasPerPrimary": null,
+  "resourceGroup": "poc-20230715",
+  "shardCount": null,
+  "sku": {
+    "capacity": 0,
+    "family": "C",
+    "name": "Basic"
+  },
+  "sslPort": 6380,
+  "staticIp": null,
+  "subnetId": null,
+  "tags": {
+    "environment": "poc"
+  },
+  "tenantSettings": null,
+  "type": "Microsoft.Cache/Redis",
+  "zones": null
+}

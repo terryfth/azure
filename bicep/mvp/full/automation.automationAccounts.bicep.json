@@ -1,0 +1,41 @@
+{
+  "automationHybridServiceUrl": "https://13a12111-f308-48ca-9678-a3448357898c.jrds.ea.azure-automation.net/automationAccounts/13a12111-f308-48ca-9678-a3448357898c",
+  "creationTime": "2023-07-15T07:51:53.893333+00:00",
+  "description": null,
+  "disableLocalAuth": false,
+  "encryption": {
+    "identity": {
+      "userAssignedIdentity": null
+    },
+    "keySource": "Microsoft.Automation",
+    "keyVaultProperties": null
+  },
+  "etag": null,
+  "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/poc-20230715/providers/Microsoft.Automation/automationAccounts/poc-ata-terry-mvp-01",
+  "identity": null,
+  "lastModifiedBy": null,
+  "lastModifiedTime": "2023-07-15T07:51:53.893333+00:00",
+  "location": "eastasia",
+  "name": "poc-ata-terry-mvp-01",
+  "privateEndpointConnections": [],
+  "publicNetworkAccess": null,
+  "resourceGroup": "poc-20230715",
+  "sku": {
+    "capacity": null,
+    "family": null,
+    "name": "Basic"
+  },
+  "state": "Ok",
+  "systemData": {
+    "createdAt": "2023-07-15T07:51:53.893333+00:00",
+    "createdBy": null,
+    "createdByType": null,
+    "lastModifiedAt": "2023-07-15T07:51:53.893333+00:00",
+    "lastModifiedBy": null,
+    "lastModifiedByType": null
+  },
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.Automation/AutomationAccounts"
+}

@@ -1,0 +1,173 @@
+{
+  "aadProfile": null,
+  "addonProfiles": null,
+  "agentPoolProfiles": [
+    {
+      "availabilityZones": null,
+      "count": 1,
+      "creationData": null,
+      "currentOrchestratorVersion": "1.25.6",
+      "enableAutoScaling": null,
+      "enableEncryptionAtHost": null,
+      "enableFips": false,
+      "enableNodePublicIp": null,
+      "enableUltraSsd": null,
+      "gpuInstanceProfile": null,
+      "hostGroupId": null,
+      "kubeletConfig": null,
+      "kubeletDiskType": "OS",
+      "linuxOsConfig": null,
+      "maxCount": null,
+      "maxPods": 110,
+      "minCount": null,
+      "mode": "System",
+      "name": "lp01",
+      "nodeImageVersion": "AKSUbuntu-2204gen2containerd-202307.04.0",
+      "nodeLabels": null,
+      "nodePublicIpPrefixId": null,
+      "nodeTaints": null,
+      "orchestratorVersion": "1.25.6",
+      "osDiskSizeGb": 128,
+      "osDiskType": "Managed",
+      "osSku": "Ubuntu",
+      "osType": "Linux",
+      "podSubnetId": null,
+      "powerState": {
+        "code": "Running"
+      },
+      "provisioningState": "Succeeded",
+      "proximityPlacementGroupId": null,
+      "scaleDownMode": null,
+      "scaleSetEvictionPolicy": null,
+      "scaleSetPriority": null,
+      "spotMaxPrice": null,
+      "tags": null,
+      "type": "VirtualMachineScaleSets",
+      "upgradeSettings": null,
+      "vmSize": "standard_b2s",
+      "workloadRuntime": null
+    }
+  ],
+  "apiServerAccessProfile": null,
+  "autoScalerProfile": null,
+  "autoUpgradeProfile": null,
+  "azureMonitorProfile": null,
+  "azurePortalFqdn": "poc-aks-terry-01-jn7d1lvh.portal.hcp.eastasia.azmk8s.io",
+  "currentKubernetesVersion": "1.25.6",
+  "disableLocalAccounts": null,
+  "diskEncryptionSetId": null,
+  "dnsPrefix": "poc-aks-terry-01",
+  "enablePodSecurityPolicy": null,
+  "enableRbac": true,
+  "extendedLocation": null,
+  "fqdn": "poc-aks-terry-01-jn7d1lvh.hcp.eastasia.azmk8s.io",
+  "fqdnSubdomain": null,
+  "httpProxyConfig": null,
+  "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourcegroups/poc-20230721/providers/Microsoft.ContainerService/managedClusters/poc-aks-terry-01",
+  "identity": {
+    "principalId": "fc759e7a-3d42-4e54-90b7-bcf1fedf7f75",
+    "tenantId": "6d7e05f5-da90-40f5-b3ee-f2fbec7ffcc0",
+    "type": "SystemAssigned",
+    "userAssignedIdentities": null
+  },
+  "identityProfile": {
+    "kubeletidentity": {
+      "clientId": "6886309c-c60c-4c28-9edf-99f78d403496",
+      "objectId": "f55e252f-4f1d-4e56-91a9-0dfef7a5d398",
+      "resourceId": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourcegroups/MC_poc-20230721_poc-aks-terry-01_eastasia/providers/Microsoft.ManagedIdentity/userAssignedIdentities/poc-aks-terry-01-agentpool"
+    }
+  },
+  "kubernetesVersion": "1.25.6",
+  "linuxProfile": null,
+  "location": "eastasia",
+  "maxAgentPools": 100,
+  "name": "poc-aks-terry-01",
+  "networkProfile": {
+    "dnsServiceIp": "10.0.0.10",
+    "ipFamilies": [
+      "IPv4"
+    ],
+    "loadBalancerProfile": {
+      "allocatedOutboundPorts": null,
+      "effectiveOutboundIPs": [
+        {
+          "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/MC_poc-20230721_poc-aks-terry-01_eastasia/providers/Microsoft.Network/publicIPAddresses/bf343dbd-a975-447a-93e6-c157289f0ea1",
+          "resourceGroup": "MC_poc-20230721_poc-aks-terry-01_eastasia"
+        }
+      ],
+      "enableMultipleStandardLoadBalancers": null,
+      "idleTimeoutInMinutes": null,
+      "managedOutboundIPs": {
+        "count": 1,
+        "countIpv6": null
+      },
+      "outboundIPs": null,
+      "outboundIpPrefixes": null
+    },
+    "loadBalancerSku": "Standard",
+    "natGatewayProfile": null,
+    "networkDataplane": null,
+    "networkMode": null,
+    "networkPlugin": "kubenet",
+    "networkPluginMode": null,
+    "networkPolicy": null,
+    "outboundType": "loadBalancer",
+    "podCidr": "10.244.0.0/16",
+    "podCidrs": [
+      "10.244.0.0/16"
+    ],
+    "serviceCidr": "10.0.0.0/16",
+    "serviceCidrs": [
+      "10.0.0.0/16"
+    ]
+  },
+  "nodeResourceGroup": "MC_poc-20230721_poc-aks-terry-01_eastasia",
+  "oidcIssuerProfile": {
+    "enabled": false,
+    "issuerUrl": null
+  },
+  "podIdentityProfile": null,
+  "powerState": {
+    "code": "Running"
+  },
+  "privateFqdn": null,
+  "privateLinkResources": null,
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": null,
+  "resourceGroup": "poc-20230721",
+  "securityProfile": {
+    "azureKeyVaultKms": null,
+    "defender": null,
+    "imageCleaner": null,
+    "workloadIdentity": null
+  },
+  "servicePrincipalProfile": {
+    "clientId": "msi"
+  },
+  "sku": {
+    "name": "Base",
+    "tier": "Free"
+  },
+  "storageProfile": {
+    "blobCsiDriver": null,
+    "diskCsiDriver": {
+      "enabled": true
+    },
+    "fileCsiDriver": {
+      "enabled": true
+    },
+    "snapshotController": {
+      "enabled": true
+    }
+  },
+  "supportPlan": "KubernetesOfficial",
+  "systemData": null,
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.ContainerService/ManagedClusters",
+  "windowsProfile": null,
+  "workloadAutoScalerProfile": {
+    "keda": null
+  }
+}

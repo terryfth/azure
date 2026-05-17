@@ -1,0 +1,24 @@
+{
+  "backendAddressPools": [],
+  "etag": "W/\"18b8b7fa-9b33-46d3-bfb7-86e3a0e261e0\"",
+  "frontendIPConfigurations": [],
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/loadBalancers/poc-lb-terry-01",
+  "inboundNatPools": [],
+  "inboundNatRules": [],
+  "loadBalancingRules": [],
+  "location": "eastasia",
+  "name": "poc-lb-terry-01",
+  "outboundRules": [],
+  "probes": [],
+  "provisioningState": "Succeeded",
+  "resourceGroup": "poc-rg-terry",
+  "resourceGuid": "ab021929-c857-47c0-a4e1-c8e4b2ccea33",
+  "sku": {
+    "name": "Standard",
+    "tier": "Regional"
+  },
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.Network/loadBalancers"
+}

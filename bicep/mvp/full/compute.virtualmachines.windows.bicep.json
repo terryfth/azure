@@ -1,0 +1,111 @@
+{
+  "additionalCapabilities": null,
+  "applicationProfile": null,
+  "availabilitySet": null,
+  "billingProfile": null,
+  "capacityReservation": null,
+  "diagnosticsProfile": null,
+  "evictionPolicy": null,
+  "extendedLocation": null,
+  "extensionsTimeBudget": null,
+  "hardwareProfile": {
+    "vmSize": "Standard_B1s",
+    "vmSizeProperties": null
+  },
+  "host": null,
+  "hostGroup": null,
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Compute/virtualMachines/poc-vm-terry-01",
+  "identity": null,
+  "instanceView": null,
+  "licenseType": null,
+  "location": "eastasia",
+  "name": "poc-vm-terry-01",
+  "networkProfile": {
+    "networkApiVersion": null,
+    "networkInterfaceConfigurations": null,
+    "networkInterfaces": [
+      {
+        "deleteOption": "Delete",
+        "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Network/networkInterfaces/poc-vm-terry-01-nic-da1de3da",
+        "primary": false,
+        "resourceGroup": "poc-rg-terry"
+      }
+    ]
+  },
+  "osProfile": {
+    "adminPassword": null,
+    "adminUsername": "terryfth",
+    "allowExtensionOperations": true,
+    "computerName": "windows01",
+    "customData": null,
+    "linuxConfiguration": null,
+    "requireGuestProvisionSignal": true,
+    "secrets": [],
+    "windowsConfiguration": {
+      "additionalUnattendContent": null,
+      "enableAutomaticUpdates": true,
+      "enableVmAgentPlatformUpdates": false,
+      "patchSettings": {
+        "assessmentMode": "ImageDefault",
+        "automaticByPlatformSettings": null,
+        "enableHotpatching": null,
+        "patchMode": "AutomaticByOS"
+      },
+      "provisionVmAgent": true,
+      "timeZone": null,
+      "winRm": null
+    }
+  },
+  "plan": null,
+  "platformFaultDomain": null,
+  "priority": null,
+  "provisioningState": "Succeeded",
+  "proximityPlacementGroup": null,
+  "resourceGroup": "poc-rg-terry",
+  "resources": null,
+  "scheduledEventsProfile": null,
+  "securityProfile": null,
+  "storageProfile": {
+    "dataDisks": [],
+    "diskControllerType": "SCSI",
+    "imageReference": {
+      "communityGalleryImageId": null,
+      "exactVersion": "20348.1850.230707",
+      "id": null,
+      "offer": "WindowsServer",
+      "publisher": "MicrosoftWindowsServer",
+      "sharedGalleryImageId": null,
+      "sku": "2022-datacenter-azure-edition",
+      "version": "latest"
+    },
+    "osDisk": {
+      "caching": "ReadWrite",
+      "createOption": "FromImage",
+      "deleteOption": "Detach",
+      "diffDiskSettings": null,
+      "diskSizeGb": 127,
+      "encryptionSettings": null,
+      "image": null,
+      "managedDisk": {
+        "diskEncryptionSet": null,
+        "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.Compute/disks/poc-vm-terry-01_OsDisk_1_6645b7c751804948a01b522c3199f357",
+        "resourceGroup": "poc-rg-terry",
+        "securityProfile": null,
+        "storageAccountType": "StandardSSD_LRS"
+      },
+      "name": "poc-vm-terry-01_OsDisk_1_6645b7c751804948a01b522c3199f357",
+      "osType": "Windows",
+      "vhd": null,
+      "writeAcceleratorEnabled": null
+    }
+  },
+  "tags": {
+    "environment": "poc"
+  },
+  "timeCreated": "2023-07-25T06:08:43.538132+00:00",
+  "type": "Microsoft.Compute/virtualMachines",
+  "userData": null,
+  "virtualMachineScaleSet": null,
+  "vmId": "922189de-9807-49ee-8b92-68dccc7035b0",
+  "zones": null
+}

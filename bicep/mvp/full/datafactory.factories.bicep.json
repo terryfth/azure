@@ -1,0 +1,21 @@
+{
+  "additionalProperties": null,
+  "createTime": "2023-08-03T03:15:23.100409+00:00",
+  "eTag": "\"57018653-0000-1900-0000-64cb1bcb0000\"",
+  "encryption": null,
+  "globalParameters": null,
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.DataFactory/factories/poc-adf-terry-02",
+  "identity": null,
+  "location": "eastasia",
+  "name": "poc-adf-terry-02",
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": null,
+  "purviewConfiguration": null,
+  "repoConfiguration": null,
+  "resourceGroup": "poc-rg-terry",
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.DataFactory/factories",
+  "version": "2018-06-01"
+}

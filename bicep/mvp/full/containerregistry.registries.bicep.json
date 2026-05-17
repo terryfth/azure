@@ -1,0 +1,65 @@
+{
+  "adminUserEnabled": false,
+  "anonymousPullEnabled": false,
+  "creationDate": "2023-08-06T07:27:32.097107+00:00",
+  "dataEndpointEnabled": false,
+  "dataEndpointHostNames": [],
+  "encryption": {
+    "keyVaultProperties": null,
+    "status": "disabled"
+  },
+  "id": "/subscriptions/559eff50-5276-42ce-80ba-a825f69db9fb/resourceGroups/20230801/providers/Microsoft.ContainerRegistry/registries/tfpocacrterry",
+  "identity": null,
+  "location": "eastasia",
+  "loginServer": "tfpocacrterry.azurecr.io",
+  "name": "tfpocacrterry",
+  "networkRuleBypassOptions": "AzureServices",
+  "networkRuleSet": null,
+  "policies": {
+    "azureAdAuthenticationAsArmPolicy": {
+      "status": "enabled"
+    },
+    "exportPolicy": {
+      "status": "enabled"
+    },
+    "quarantinePolicy": {
+      "status": "disabled"
+    },
+    "retentionPolicy": {
+      "days": 7,
+      "lastUpdatedTime": "2023-08-06T07:27:40.774615+00:00",
+      "status": "disabled"
+    },
+    "softDeletePolicy": {
+      "lastUpdatedTime": "2023-08-06T07:27:40.774615+00:00",
+      "retentionDays": 7,
+      "status": "disabled"
+    },
+    "trustPolicy": {
+      "status": "disabled",
+      "type": "Notary"
+    }
+  },
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": "Enabled",
+  "resourceGroup": "20230801",
+  "sku": {
+    "name": "Basic",
+    "tier": "Basic"
+  },
+  "status": null,
+  "systemData": {
+    "createdAt": "2023-08-06T07:27:32.097107+00:00",
+    "createdBy": "terryfth@live.hk",
+    "createdByType": "User",
+    "lastModifiedAt": "2023-08-06T07:27:32.097107+00:00",
+    "lastModifiedBy": "terryfth@live.hk",
+    "lastModifiedByType": "User"
+  },
+  "tags": {
+    "environment": "poc"
+  },
+  "type": "Microsoft.ContainerRegistry/registries",
+  "zoneRedundancy": "Disabled"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "eTag": null,
+    "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.RecoveryServices/vaults/poc-rsv-terry-01/backupstorageconfig/vaultstorageconfig",
+    "location": null,
+    "name": "vaultstorageconfig",
+    "properties": {
+      "crossRegionRestoreFlag": false,
+      "dedupState": "Disabled",
+      "storageModelType": "ZoneRedundant",
+      "storageType": "ZoneRedundant",
+      "storageTypeState": "Unlocked",
+      "xcoolState": "Disabled"
+    },
+    "resourceGroup": "poc-rg-terry",
+    "tags": null,
+    "type": "Microsoft.RecoveryServices/vaults/backupstorageconfig"
+  },
+  {
+    "eTag": null,
+    "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/poc-rg-terry/providers/Microsoft.RecoveryServices/vaults/poc-rsv-terry-01/backupconfig/vaultconfig",
+    "location": null,
+    "name": "vaultconfig",
+    "properties": {
+      "enhancedSecurityState": "Enabled",
+      "isSoftDeleteFeatureStateEditable": true,
+      "resourceGuardOperationRequests": null,
+      "softDeleteFeatureState": "Enabled",
+      "softDeleteRetentionPeriodInDays": 14,
+      "storageModelType": null,
+      "storageType": null,
+      "storageTypeState": null
+    },
+    "resourceGroup": "poc-rg-terry",
+    "tags": null,
+    "type": "Microsoft.RecoveryServices/vaults/backupconfig"
+  }
+]

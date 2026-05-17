@@ -1,0 +1,43 @@
+{
+  "id": "/subscriptions/ddfa8fae-f6ec-433c-b929-1d876cc68299/resourcegroups/cn-hb3-dev-pfl-db-rg/providers/microsoft.sql/managedinstances/cn-hb3-dev-pfl-sqlm/providers/microsoft.insights/diagnosticSettings/aes",
+  "logs": [
+    {
+      "category": "SQLSecurityAuditEvents",
+      "enabled": true,
+      "retentionPolicy": {
+        "days": 0,
+        "enabled": false
+      }
+    },
+    {
+      "category": "ResourceUsageStats",
+      "enabled": false,
+      "retentionPolicy": {
+        "days": 0,
+        "enabled": false
+      }
+    },
+    {
+      "category": "DevOpsOperationsAudit",
+      "enabled": false,
+      "retentionPolicy": {
+        "days": 0,
+        "enabled": false
+      }
+    }
+  ],
+  "metrics": [
+    {
+      "category": "AllMetrics",
+      "enabled": false,
+      "retentionPolicy": {
+        "days": 0,
+        "enabled": false
+      }
+    }
+  ],
+  "name": "aes",
+  "resourceGroup": "cn-hb3-dev-pfl-db-rg",
+  "storageAccountId": "/subscriptions/133903d0-42be-4d19-9128-91519244cf51/resourceGroups/cn-hb3-hub-prd-log-rg/providers/Microsoft.Storage/storageAccounts/cnhb3infosecmgtlog01",
+  "type": "Microsoft.Insights/diagnosticSettings"
+}

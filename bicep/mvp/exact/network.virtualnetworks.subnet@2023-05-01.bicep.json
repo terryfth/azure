@@ -1,0 +1,12 @@
+{
+  "addressPrefix": "10.0.0.0/24",
+  "delegations": [],
+  "etag": "W/\"4f98ba28-5863-4470-846f-54e45e0e5145\"",
+  "id": "/subscriptions/02af7de8-5a55-4ea6-8951-7af0eb7581fb/resourceGroups/rg-poc-terry/providers/Microsoft.Network/virtualNetworks/poc-vnt-terry-01/subnets/subnet01",
+  "name": "subnet01",
+  "privateEndpointNetworkPolicies": "Disabled",
+  "privateLinkServiceNetworkPolicies": "Enabled",
+  "provisioningState": "Succeeded",
+  "resourceGroup": "rg-poc-terry",
+  "type": "Microsoft.Network/virtualNetworks/subnets"
+}
